@@ -1,0 +1,35 @@
+# CAST Default Configuration
+# Base configuration for all experiments
+
+# Model architecture
+embedding_dim: 32
+khop: 2
+kan_hidden_dim: 64
+kan_num_layers: 3
+kan_order: 8
+kan_type: taylor
+
+# Causal discovery
+dag_threshold: 0.1
+sparsity_lambda: 1.0
+dag_rho_init: 1.0
+dag_outer_iter: 10
+dag_inner_iter: 300
+pretrain_epochs: 100
+
+# Training
+learning_rate: 0.001
+batch_size: 128
+finetune_epochs: 100
+weight_decay: 0.0001
+dropout: 0.1
+
+# Loss weights
+focal_alpha: 0.7
+focal_gamma: 1.0
+lambda_dag: 0.1
+lambda_hyp: 0.01
+lambda_sp: 0.01
+
+# Other
+seed: 42

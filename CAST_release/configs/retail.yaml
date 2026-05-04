@@ -1,0 +1,12 @@
+# Retail dataset optimal configuration
+# F1: 0.9414 ± 0.0013, AUC: 0.9863 ± 0.0013, AUPRC: 0.9665 ± 0.0043
+
+dag_threshold: 0.05
+dropout: 0.2
+embedding_dim: 64
+focal_gamma: 5.0
+kan_hidden_dim: 64
+kan_num_layers: 2
+learning_rate: 0.002
+sparsity_lambda: 0.5
+weight_decay: 0.0001

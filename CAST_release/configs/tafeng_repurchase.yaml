@@ -1,0 +1,12 @@
+# Tafeng repurchase dataset optimal configuration
+# F1: 0.7417 ± 0.0045, AUC: 0.7860 ± 0.0056, AUPRC: 0.8348 ± 0.0044
+
+dag_threshold: 0.03
+dropout: 0.2
+embedding_dim: 64
+focal_gamma: 1.0
+kan_hidden_dim: 128
+kan_num_layers: 4
+learning_rate: 0.001
+sparsity_lambda: 0.5
+weight_decay: 0.0001

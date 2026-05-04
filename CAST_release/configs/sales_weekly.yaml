@@ -1,0 +1,13 @@
+# Sales Weekly dataset optimal configuration
+# F1: 0.9700 ± 0.0212, AUC: 0.9865 ± 0.0112, AUPRC: 0.9509 ± 0.0447
+
+dag_threshold: 0.01
+dropout: 0.05
+embedding_dim: 32
+finetune_epochs: 500
+focal_gamma: 5.0
+kan_hidden_dim: 32
+kan_num_layers: 2
+learning_rate: 0.0003
+sparsity_lambda: 2.0
+weight_decay: 0.001

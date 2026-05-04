@@ -1,0 +1,17 @@
+# Instacart dataset optimal configuration
+# F1: 0.9752 ± 0.0018, AUC: 0.9987 ± 0.0002, AUPRC: 0.9975 ± 0.0003
+
+batch_size: 512
+dag_inner_iter: 100
+dag_outer_iter: 3
+dag_rho_init: 0.1
+dag_threshold: 0.05
+dropout: 0.05
+embedding_dim: 64
+finetune_epochs: 100
+focal_gamma: 3.0
+kan_hidden_dim: 256
+kan_num_layers: 3
+learning_rate: 0.001
+sparsity_lambda: 0.01
+weight_decay: 0.0001

@@ -1,0 +1,11 @@
+# CDNow dataset optimal configuration
+# F1: 0.9565 ± 0.0026, AUC: 0.9945 ± 0.0004, AUPRC: 0.9911 ± 0.0003
+
+dag_threshold: 0.01
+embedding_dim: 128
+focal_gamma: 2.0
+kan_hidden_dim: 128
+kan_num_layers: 2
+learning_rate: 0.002
+sparsity_lambda: 0.5
+weight_decay: 0.0005

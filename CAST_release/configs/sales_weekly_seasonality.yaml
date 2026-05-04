@@ -1,0 +1,13 @@
+# Sales Weekly Seasonality task optimal configuration
+# F1: 0.9974 ± 0.0037, AUC: 0.9999 ± 0.0001
+
+dag_threshold: 0.03
+dropout: 0.1
+embedding_dim: 64
+finetune_epochs: 100
+focal_gamma: 2.0
+kan_hidden_dim: 128
+learning_rate: 0.0003
+kan_num_layers: 3
+sparsity_lambda: 2.0
+weight_decay: 0.0001

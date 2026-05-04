@@ -1,0 +1,16 @@
+# Instacart Churn task optimal configuration
+# F1: 0.6455 ± 0.0034
+
+batch_size: 256
+dag_inner_iter: 300
+dag_outer_iter: 10
+dag_rho_init: 0.1
+dag_threshold: 0.01
+dropout: 0.05
+embedding_dim: 128
+focal_gamma: 1.0
+kan_hidden_dim: 256
+kan_num_layers: 2
+learning_rate: 0.001
+sparsity_lambda: 0.005
+weight_decay: 0.0001

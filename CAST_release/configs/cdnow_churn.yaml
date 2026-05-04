@@ -1,0 +1,12 @@
+# CDNow churn dataset optimal configuration
+# F1: 0.9174 ± 0.0018, AUC: 0.7894 ± 0.0075
+
+dag_threshold: 0.05
+dropout: 0.3
+embedding_dim: 128
+focal_gamma: 1.0
+kan_hidden_dim: 64
+kan_num_layers: 2
+learning_rate: 0.0003
+sparsity_lambda: 0.1
+weight_decay: 0.001

@@ -1,0 +1,12 @@
+# Tafeng dataset optimal configuration
+# F1: 0.9520 ± 0.0044, AUC: 0.9947 ± 0.0000, AUPRC: 0.9905 ± 0.0000
+
+dag_threshold: 0.3
+dropout: 0.1
+embedding_dim: 64
+focal_gamma: 3.0
+kan_hidden_dim: 128
+kan_num_layers: 3
+learning_rate: 0.0003
+sparsity_lambda: 0.5
+weight_decay: 0.001

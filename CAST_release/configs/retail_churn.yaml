@@ -1,0 +1,13 @@
+# Retail churn dataset optimal configuration
+# F1: 0.7284 ± 0.0117, AUC: 0.7969 ± 0.0023
+
+dag_threshold: 0.05
+dropout: 0.2
+embedding_dim: 32
+focal_gamma: 1.0
+kan_hidden_dim: 256
+kan_num_layers: 3
+khop: 2
+learning_rate: 0.0005
+sparsity_lambda: 2.0
+weight_decay: 0.0005
